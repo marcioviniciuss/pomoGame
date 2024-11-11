@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudyGame</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <span class="nivel">lvl: Visitante</span>
+        <h1>Study</h1><span>Game</span>
+    </header>
+    <aside>
+        <div>Nada</div>
+    </aside>
+    <audio src="assets/audio/lofi.mp3" type="audio/mpeg" controls loop class="musica hidden">
+    </audio>
+    <div class="temporizador">
+        <ul class="botoes-tempo">
+            <li><button id="foco" class="botao botao-tempo active">Foco</button></li>
+            <li><button id="pausa" class="botao botao-tempo">Pausa</button></li>
+            <li><button id="descanso" class="botao botao-tempo">Descanso</button></li>
+        </ul>
+        <div class="tempo">25:00</div>
+        <button class="btn-iniciar">Iniciar</button>
+    </div>
+    <img width="50" height="50" src="https://img.icons8.com/ios/50/FFFFFF/info--v1.png" alt="info--v1" class="icon" />
+    <img width="50" height="50" src="https://img.icons8.com/ios/50/FFFFFF/apple-music.png" alt="apple-music"
+        class="music" />
+    <div class="sobre hidden">
+        <p>A cada ciclo concluído, você ganha XP e sobe de nível. Seu progresso é mostrado com um
+            level
+            de "progresso", que muda
+            conforme você avança. A ideia é melhorar sua produtividade enquanto se diverte!
+            Tente a cada dia bater seu recorde, e se motivar a estudar mais e mais!
+        </p>
+    </div>
+    <div class="filtro"></div>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
