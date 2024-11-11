@@ -9,7 +9,7 @@ const icone = document.querySelector(".icon");
 const sobre = document.querySelector(".sobre");
 const musica = document.querySelector(".music");
 const musicaElemento = document.querySelector(".musica");
-const bip = new Audio("../assets/audio/bip.mp3");
+const bip = new Audio("../assets/sons/bip.mp3");
 bip.volume = 0.25;
 
 // define tempo default do contador
